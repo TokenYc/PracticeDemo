@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="net.archeryc.demo.AutoViewPagerActivity">
+
+    <net.archeryc.demo.AutoViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <net.archeryc.demo.AutoCircleIndicator
+        android:id="@+id/circleIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:ci_drawable="@color/colorPrimary"
+        app:ci_drawable_unselected="@color/colorAccent"/>
+</LinearLayout>
