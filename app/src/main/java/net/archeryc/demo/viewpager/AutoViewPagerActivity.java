@@ -1,9 +1,11 @@
-package net.archeryc.demo;
+package net.archeryc.demo.viewpager;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+
+import net.archeryc.demo.R;
 
 import java.util.ArrayList;
 import java.util.List;

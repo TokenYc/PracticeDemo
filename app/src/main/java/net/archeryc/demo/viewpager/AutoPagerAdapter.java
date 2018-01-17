@@ -1,4 +1,4 @@
-package net.archeryc.demo;
+package net.archeryc.demo.viewpager;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

@@ -7,6 +7,10 @@ import android.view.View;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
 
+import net.archeryc.demo.recyclerview.NestedActivity;
+import net.archeryc.demo.server.ServerActivity;
+import net.archeryc.demo.viewpager.AutoViewPagerActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,5 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void jumpViewPager(View view){
         startActivity(new Intent(this,AutoViewPagerActivity.class));
+    }
+
+    public void jumpNest(View view){
+        startActivity(new Intent(this, NestedActivity.class));
+    }
+
+    public void jumpServer(View view){
+        startActivity(new Intent(this, ServerActivity.class));
     }
 }

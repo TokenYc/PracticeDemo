@@ -6,32 +6,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context="net.archeryc.demo.MainActivity">
+    tools:context="net.archeryc.demo.server.ServerActivity">
 
+    <TextView
+        android:id="@+id/tv_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Matrix 测试"
-        android:onClick="jumpMatrix"
+        android:text="开启服务"
+        android:onClick="openServer"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭服务"
+        android:onClick="stopServer"
         />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="轮播图"
-        android:onClick="jumpViewPager"
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="嵌套滑动"
-        android:onClick="jumpNest"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="服务器"
-        android:onClick="jumpServer"
-        />
 </LinearLayout>

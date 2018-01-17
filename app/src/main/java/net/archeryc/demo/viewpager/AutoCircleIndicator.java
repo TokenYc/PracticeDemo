@@ -1,4 +1,4 @@
-package net.archeryc.demo;
+package net.archeryc.demo.viewpager;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -11,6 +11,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
+
+import net.archeryc.demo.R;
 
 import static android.support.v4.view.ViewPager.OnPageChangeListener;
 
