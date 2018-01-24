@@ -8,6 +8,7 @@ import android.view.View;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
 import net.archeryc.demo.download.DownloadActivity;
+import net.archeryc.demo.jumpTest.WebviewActivity;
 import net.archeryc.demo.recyclerview.NestedActivity;
 import net.archeryc.demo.server.ServerActivity;
 import net.archeryc.demo.viewpager.AutoViewPagerActivity;
@@ -38,4 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void jumpDownload(View view){startActivity(new Intent(this, DownloadActivity.class));}
+
+    public void jumpWebview(View view) {
+        startActivity(new Intent(this, WebviewActivity.class));
+    }
 }

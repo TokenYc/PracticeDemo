@@ -41,4 +41,11 @@
         android:text="下载图片"
         android:onClick="jumpDownload"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="webview"
+        android:onClick="jumpWebview"
+        />
 </LinearLayout>

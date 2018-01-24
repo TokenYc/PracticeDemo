@@ -6,8 +6,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +27,21 @@
         <activity android:name=".viewpager.AutoViewPagerActivity" />
         <activity android:name=".recyclerview.NestedActivity" />
         <activity android:name=".server.ServerActivity" />
-        <activity android:name=".download.DownloadActivity"></activity>
+        <activity android:name=".download.DownloadActivity" />
+        <activity android:name=".jumpTest.WebviewActivity" />
+        <activity android:name=".jumpTest.TargetActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data
+                android:host="user"
+                android:scheme="qianfanyidong"
+                />
+        </intent-filter>
+            </activity>
     </application>
 
 </manifest>
