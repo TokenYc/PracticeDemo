@@ -34,4 +34,11 @@
         android:text="服务器"
         android:onClick="jumpServer"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载图片"
+        android:onClick="jumpDownload"
+        />
 </LinearLayout>
