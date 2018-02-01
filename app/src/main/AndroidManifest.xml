@@ -30,18 +30,18 @@
         <activity android:name=".download.DownloadActivity" />
         <activity android:name=".jumpTest.WebviewActivity" />
         <activity android:name=".jumpTest.TargetActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.VIEW" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
 
-            <data
-                android:host="user"
-                android:scheme="qianfanyidong"
-                />
-        </intent-filter>
-            </activity>
+                <data
+                    android:host="user"
+                    android:scheme="qianfanyidong" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".mockClick.MockClickActivity"></activity>
     </application>
 
 </manifest>

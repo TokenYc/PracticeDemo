@@ -48,4 +48,10 @@
         android:text="webview"
         android:onClick="jumpWebview"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模拟点击"
+        android:onClick="jumpMockClick"
+        />
 </LinearLayout>
